@@ -135,9 +135,6 @@ a:focus{outline:none; box-shadow:var(--ring); border-radius:10px}
 }
 
 .footer .links{display:flex; gap:10px; align-items:center}
-.footer .return-home{
-  flex-basis:100%;
-}
 .iconlink{
   display:inline-flex;
   align-items:center;
