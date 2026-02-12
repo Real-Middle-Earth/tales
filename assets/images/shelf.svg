@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="A lantern-lit shelf of books, suggesting a hobbit's story-shelf">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b0f14"/>
+      <stop offset="1" stop-color="#101826"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="65%" cy="35%" r="55%">
+      <stop offset="0" stop-color="#f6e7c8" stop-opacity="0.85"/>
+      <stop offset="0.4" stop-color="#c9a86a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c9a86a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="790" cy="210" r="270" fill="url(#lamp)" filter="url(#blur)"/>
+
+  <!-- Shelf -->
+  <rect x="120" y="420" width="960" height="26" rx="10" fill="#c9a86a" opacity="0.25"/>
+  <rect x="120" y="446" width="960" height="10" rx="6" fill="#c9a86a" opacity="0.12"/>
+
+  <!-- Books -->
+  <g transform="translate(180,230)">
+    <rect x="0" y="0" width="70" height="200" rx="10" fill="#7fb7a6" opacity="0.25"/>
+    <rect x="84" y="18" width="54" height="182" rx="10" fill="#c9a86a" opacity="0.22"/>
+    <rect x="152" y="-6" width="62" height="206" rx="10" fill="#e9e3d5" opacity="0.12"/>
+    <rect x="228" y="10" width="48" height="190" rx="10" fill="#7fb7a6" opacity="0.18"/>
+    <rect x="290" y="-2" width="76" height="202" rx="10" fill="#c9a86a" opacity="0.16"/>
+    <rect x="380" y="20" width="58" height="180" rx="10" fill="#e9e3d5" opacity="0.10"/>
+    <rect x="452" y="6" width="66" height="194" rx="10" fill="#7fb7a6" opacity="0.16"/>
+    <rect x="532" y="-8" width="72" height="208" rx="10" fill="#c9a86a" opacity="0.18"/>
+  </g>
+
+  <!-- Title -->
+  <text x="70" y="110" fill="#e9e3d5" fill-opacity="0.9" font-family="ui-serif, Georgia, serif" font-size="48">The Story-Shelf</text>
+  <text x="72" y="150" fill="#bfb6a5" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI" font-size="18" letter-spacing="3">All tales gathered in one place</text>
+</svg>
