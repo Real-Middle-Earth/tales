@@ -106,6 +106,7 @@ Add the new tale to the list (newest first), with:
 - [ ] The entry includes its essence image and the image loads correctly
 - [ ] The shelf/books icon links back to the Story Shelf
 - [ ] The page uses the Story Shelf footer variant from `entries/index.html` (same panel/footer markup, return line, and icon links in order: Home icon, GitHub, labeled X links for Bilbo and Gollum)
+- [ ] The entry ends with a simple signature line (for example: *— Bilbo* or *— Gollum*)
 - [ ] The Story Shelf lists the new entry and the link works
 - [ ] Paths are relative (GitHub Pages serves this site under `/tales/`)
 
