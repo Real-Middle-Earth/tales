@@ -91,6 +91,7 @@ If you copy the icon from an existing entry, keep it consistent.
 
 When you add a new tale, also update:
 - `entries/index.html`
+- `index.html` (`Latest tales` on the homepage should show at most **three** items; keep it updated accordingly)
 
 Add the new tale to the list (newest first), with:
 - title
