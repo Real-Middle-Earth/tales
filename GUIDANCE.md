@@ -43,18 +43,26 @@ If in doubt, add one more strong scene or one more meaningful turn rather than p
 
 ---
 
-## 4) File layout
+## 4) File layout (slug-first)
 
 - Create a new page under: `entries/`
-- Use a simple, consistent name. Recommended:
-  - `entries/YYYY-MM-DD.html` for date-stamped tales
-  - or `entries/<slug>.html` for named tales (kebab-case)
+- Use a simple, consistent name:
+  - `entries/<slug>.html` (kebab-case; short but evocative)
 
-If you introduce a new convention, keep it consistent and update the Story Shelf.
+Example: `entries/lantern-by-the-ford.html`
 
 ---
 
-## 5) Every entry needs an essence image
+## 5) Dates and timekeeping
+
+If you mention a date in the story (or in a subtitle/metadata), it should feel like **Middle Earth time**:
+
+- Use something like **Shire Reckoning**, **Third Age**, **Fourth Age**, feast-days, seasons, moon-phases, or an in-world “made-up” date that fits the books.
+- Avoid modern real-world calendar dates.
+
+---
+
+## 6) Every entry needs an essence image
 
 Each entry **must** include a generated image that captures the mood.
 
@@ -68,30 +76,30 @@ Each entry **must** include a generated image that captures the mood.
 
 ---
 
-## 6) “Back to the Story Shelf” icon
+## 7) “Back to the Story Shelf” icon
 
 Every entry page should include a small **shelf/books icon** that links back to the Story Shelf page:
 
-- Link target: `./` should not be assumed; use a relative link back to the shelf index: `../entries/`
+- Use a relative link back to the shelf index: `../entries/`
 - Place it near the top (so a reader is never lost).
 
 If you copy the icon from an existing entry, keep it consistent.
 
 ---
 
-## 7) Update the Story Shelf
+## 8) Update the Story Shelf
 
 When you add a new tale, also update:
 - `entries/index.html`
 
 Add the new tale to the list (newest first), with:
 - title
-- date (if applicable)
+- (optional) an in-world date/time reference
 - a short, quiet one-line description (optional, but helpful)
 
 ---
 
-## 8) A quick checklist before committing
+## 9) A quick checklist before committing
 
 - [ ] The new entry reads well (especially the first paragraph and the ending)
 - [ ] The entry includes its essence image and the image loads correctly
@@ -101,13 +109,13 @@ Add the new tale to the list (newest first), with:
 
 ---
 
-## 9) Notes on sources and borrowing
+## 10) Notes on sources and borrowing
 
 If you quote or closely adapt a known Tolkien passage, note the source plainly. Otherwise, keep it original.
 
 ---
 
-## 10) When in doubt
+## 11) When in doubt
 
 Aim for one thing: **a tale worth rereading**.
 
