@@ -118,16 +118,19 @@ a:focus{outline:none; box-shadow:var(--ring); border-radius:10px}
 
 .footer{
   margin-top:28px;
-  padding-top:18px;
-  border-top:1px solid rgba(255,255,255,.06);
+  padding:14px 16px;
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;
+  background: rgba(16,24,38,.75);
   color:var(--muted);
   font-family:var(--sans);
   font-size:13px;
   display:flex;
   align-items:center;
-  justify-content:space-between;
+  justify-content:center;
   gap:14px;
   flex-wrap:wrap;
+  text-align:center;
 }
 
 .footer .links{display:flex; gap:10px; align-items:center}
@@ -143,6 +146,17 @@ a:focus{outline:none; box-shadow:var(--ring); border-radius:10px}
 }
 .iconlink:hover{border-color: rgba(201,168,106,.28)}
 .icon{width:18px; height:18px; fill: currentColor}
+.x-link{
+  width:auto;
+  padding:0 10px;
+  gap:8px;
+}
+.x-link .label{
+  font-size:11px;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+  color:rgba(233,227,213,.76);
+}
 
 .small{font-family:var(--sans); font-size:14px; color:var(--muted)}
 
